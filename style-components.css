@@ -1,0 +1,126 @@
+.buy:hover {
+	transform: translateY(-5px);
+	background-color: #1746e0 !important;
+	box-shadow: 1rem 1rem 1rem -.75rem rgba(22,28,45,.1), -1rem 1rem 1rem -.75rem rgba(22,28,45,.1)
+}
+
+.buy {
+	transition: 350ms;
+	background-color: #335eea !important;
+}
+
+.nav-link:hover, .nav-link:focus, .t-content-landings, .content-landings:hover {
+	color: blue !important;
+}
+
+#landings {
+	position: relative;
+	transition: 300ms;
+}
+
+#landings-collapse {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 180%;
+	left: -255%;
+	height: 300px;
+	width: 600px;
+	transition: 400ms;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+#landings:hover #landings-collapse {
+	visibility: visible;
+	opacity: 1;
+	top: 120%;
+}
+
+.background {
+	background-size: cover;
+	left: 15px;
+}
+
+.overlay {
+	height: 100%;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.font-size-sm {
+	font-size: 1rem;
+}
+
+.content-landings {
+	list-style: none;
+	color: black;
+	margin-left: -2.5rem !important;
+	padding-top: 0.3rem !important;
+}
+
+.href {
+	color: gray;
+	text-decoration: none;
+}
+
+.href:hover {
+	text-decoration: none
+}
+
+.landings-2 {
+	position: relative;
+}
+
+#landings-collapse-2 {
+	position: absolute;
+	top: 180%;
+	left: -100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 400ms;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.landings-2:hover #landings-collapse-2 {
+	visibility: visible;
+	opacity: 1;
+	top: 120%;
+}
+
+#landings-3 {
+	position: relative;
+}
+
+#landings-3:hover #landings-collapse-3 {
+	visibility: visible;
+	opacity: 1;
+	top: 120%;
+}
+
+#landings-collapse-3 {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: 400ms;
+	top: 180%;
+	left: -50%;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.doc {
+	color: gray;
+}
+
+ #landings-collapse-3 a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
